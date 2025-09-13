@@ -9,7 +9,7 @@ export default async function handler(req, res) {
   }
 
   // Reemplaza con tu Skill ID real (lo encuentras en Alexa Developer Console > Settings)
-  const YOUR_SKILL_ID = "amzn1.ask.skill.YOUR-SKILL-ID"; // ⚠️ CAMBIA ESTO!
+  const YOUR_SKILL_ID = "amzn1.ask.skill.9c181a28-f8af-413a-98d3-8a22b1ef9279"; // ⚠️ CAMBIA ESTO!
   if (body.session.application.applicationId !== YOUR_SKILL_ID) {
     return res.status(403).json({ error: "Invalid Skill ID" });
   }
